@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://kit.fontawesome.com/70f347caea.js" crossorigin="anonymous">
+</script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting_1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="home">
+    <nav id="navbar">
+        <h2><a href="#home"><span class="text-primary">Vol</span> Pro </a></h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+
+        </ul>
+    </nav>
+    <section id="about">
+        <div class="container">
+            <h2 class="about-heading">Get to Know<span class="text-primary"> Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3> A Little Bit<span class="text-primary"> About Myself</span></h3>
+                    <p class="lead"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book.</p>
+                    <p class="lead"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book.</p>
+                    <p class="lead"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book.</p>
+                </div>
+                <div class="about-image">
+                    <img src="img/face.jpg" alt="Picture of Myself">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="bg-light">
+        <div class="container">
+            <h2>Contact <span class="text-primary"></span> Now</h2>
+            <div class="form-container">
+                <div class="mail-icon"><i class="fas fa-envelope"></i></div>
+                <div class="form-box">
+                    <h3>Shoot me a <span class="text-primary"> Message</span></h3>
+                    <form action="POST" data-netlify="true">
+                        <div class="form-group">
+                            <label for="first-name">First-name</label>
+                            <input type="text" placeholder="Enter your first name">
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last-name</label>
+                            <input type="text" placeholder="Enter your last name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="Message">Message</label>
+                            <textarea rows="7" placeholder="Enter your Message"></textarea>
+                        </div>
+                        <div class="field">
+                            <input type="file" name="myfile" id="myfile" placeholder="Upload File" rows="7">
+                        </div>
+                        <div class="field">
+                            <div data-netlify-recaptcha="true"></div>
+                        </div>
+                        <input type="submit" value="Send Message" class="contact-btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
